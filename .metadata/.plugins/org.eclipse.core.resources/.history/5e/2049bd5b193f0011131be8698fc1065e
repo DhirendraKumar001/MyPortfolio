@@ -3,9 +3,9 @@ spring.application.name=backend
 server.port=8080
 
 # ── MySQL ──────────────────────────────────────
-spring.datasource.url=jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_db?allowPublicKeyRetrieval=true&useSSL=false
 spring.datasource.username=root
-spring.datasource.password=abilSBJkXTyiryTGIIaZoKtPMnryTjpT
+spring.datasource.password=Ankit@123
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 # ── JPA / Hibernate ────────────────────────────

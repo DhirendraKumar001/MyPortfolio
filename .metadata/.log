@@ -2237,3 +2237,60 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.debug.core.ILaunchCon
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 18:28:59.370
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application-example.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 18:43:27.667
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 18:43:31.278
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application-example.properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:35.979
+!MESSAGE [Info]	[fetchCompletions] Request 1aa9d6d8-4bae-4653-9906-c449bbcb9626 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 791.8216999992728ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:35.980
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:38.603
+!MESSAGE [Info]	[fetchCompletions] Request 5901adf4-e38c-4e63-99d3-a283ac281b24 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 314.48749999981374ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:38.604
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:39.256
+!MESSAGE [Info]	[fetchCompletions] Request 99bd0983-18fd-4d20-8916-0ad87f33ce24 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 308.8849000008777ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:39.463
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:44.065
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:43:44.066
+!MESSAGE [Info]	[fetchCompletions] Request de986bb4-6ba2-4fba-87c9-2f0fa8f1340f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.2011000001803ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:01:02.835
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:01:03.832
+!MESSAGE [Info]	[fetchCompletions] Request 61ba46e9-e7e7-4ab4-a4b3-43830c694c79 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 988.5990999992937ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:01:03.833
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:01:04.134
+!MESSAGE [Info]	[fetchCompletions] Request 9bbe5070-865e-4035-a6bd-0a8bd98dd964 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 290.84669999964535ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:01:04.146
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:04:30.710
+!MESSAGE [Info]	[fetchCompletions] Request ca10c3c2-9627-406a-930b-675f5f48f078 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 798.809299999848ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:04:31.086
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:06:24.750
+!MESSAGE [Info]	[fetchCompletions] Request bb0392ed-0a2d-4632-a8b5-a2acea523075 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 485.26219999976456ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:06:24.751
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
