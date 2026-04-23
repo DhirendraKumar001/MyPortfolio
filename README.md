@@ -1,44 +1,40 @@
-My Portfolio Web Application
+# 🚀 Portfolio — Full Stack Web App
 
-A full-stack Portfolio Web App built with Spring Boot (Backend) and React + Vite (Frontend). It showcases my projects, skills, and provides a modern responsive UI with REST API integration.
+A personal portfolio built with React + Spring Boot + MySQL
 
-🌐 Live Demo
+## Tech Stack
+- **Frontend**: React, Vite, React Router
+- **Backend**: Spring Boot 3, Spring Security, JWT
+- **Database**: MySQL
+- **Email**: JavaMailSender (Gmail SMTP)
 
-🔗 Add your deployed link here
+## Features
+- JWT Authentication (Register/Login)
+- Home page with skills and education
+- Projects showcase
+- Resume PDF viewer
+- Contact form (sends email)
 
-📌 Features
-👤 Personal portfolio showcase
-📂 Projects display section
-🔗 REST API integration
-📱 Responsive design
-⚡ Fast frontend using Vite
-🛠️ Tech Stack
+## Run Locally
 
-Frontend: React, Vite, JavaScript, CSS/Tailwind
-Backend: Spring Boot, Spring Data JPA, MySQL
-Tools: Git, Postman, VS Code / STS
-
-📁 Project Structure
-portfolio/
-├── backend/
-├── frontend/
-└── README.md
-⚙️ Setup
-Clone Repo
-git clone https://github.com/DhirendraKumar001/MyPortfolio.git
-cd your-repo
-Run Backend
+### Backend
+```bash
 cd backend
 mvn spring-boot:run
-Run Frontend
+```
+
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-🚀 Future Improvements
-Admin dashboard
-Contact form
-Deployment & hosting
-👨‍💻 Author
+```
 
-Dhirendra Kumar
-🔗 GitHub: https://github.com/DhirendraKumar001
+## Environment Variables
+Set these before running the backend:
+- `DB_USERNAME` — MySQL username
+- `DB_PASSWORD` — MySQL password  
+- `JWT_SECRET` — Secret key (min 32 chars)
+- `MAIL_USERNAME` — Gmail address
+- `MAIL_PASSWORD` — Gmail app password
+- `MAIL_TO` — Email to receive contact messages
