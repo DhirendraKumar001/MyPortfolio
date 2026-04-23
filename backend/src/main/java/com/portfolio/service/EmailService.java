@@ -1,0 +1,31 @@
+package com.portfolio.service;
+
+import com.portfolio.dto.ContactRequest;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class EmailService {
+
+    private final JavaMailSender mailSender;
+
+    @Value("${portfolio.email.to}")
+    private String toEmail;
+
+    public void sendContactEmail(ContactRequest req) {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setTo(toEmail);
+        message.setSubject("Portfolio Contact: " + req.getSubject());
+        message.setText(
+            "From: " + req.getName() + " <" + req.getEmail() + ">\n\n" +
+            req.getMessage()
+        );
+        mailSender.send(message);
+    }
+}
+
+

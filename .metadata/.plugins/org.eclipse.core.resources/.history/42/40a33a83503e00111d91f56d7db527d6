@@ -1,0 +1,30 @@
+spring.application.name=backend
+
+server.port=8080
+
+# ── MySQL ──────────────────────────────────────
+spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=Ankit@123
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# ── JPA / Hibernate ────────────────────────────
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+# ── JWT ────────────────────────────────────────
+jwt.secret=myVerySecretKey1234567890abcdefghij
+jwt.expiration=86400000
+
+# ── Email (Gmail SMTP) ─────────────────────────
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=dhiraendra542005@gmail.com
+spring.mail.password=vwci yvgp kyny vjvo
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+# Your portfolio email (where contact form sends TO)
+portfolio.email.to=dhiraendra542005@gmail.com
+

@@ -1,0 +1,55 @@
+package com.portfolio.service;
+
+import com.portfolio.dto.*;
+import com.portfolio.entity.User;
+import com.portfolio.repository.UserRepository;
+import com.portfolio.security.JwtUtil;
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.authentication.*;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.security.authentication.BadCredentialsException;
+
+@Service
+@RequiredArgsConstructor
+public class AuthService {
+
+    private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
+    private final JwtUtil jwtUtil;
+    private final AuthenticationManager authenticationManager;
+    private final com.portfolio.security.UserDetailsServiceImpl userDetailsService;
+
+    public String register(RegisterRequest request) {
+        if (userRepository.existsByUsername(request.getUsername())) {
+            throw new RuntimeException("Username already taken");
+        }
+        if (userRepository.existsByEmail(request.getEmail())) {
+            throw new RuntimeException("Email already registered");
+        }
+        User user = User.builder()
+                .username(request.getUsername())
+                .email(request.getEmail())
+                .password(passwordEncoder.encode(request.getPassword()))
+                .build();
+        userRepository.save(user);
+        return "User registered successfully";
+    }
+
+    public AuthResponse login(LoginRequest request) {
+        // Find by username OR email
+        User user = userRepository.findByUsername(request.getUsername())
+                .or(() -> userRepository.findByEmail(request.getUsername()))
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        // Verify password manually
+        if (!passwordEncoder.matches(request.getPassword(), user.getPassword())) {
+            throw new BadCredentialsException("Invalid password");
+        }
+
+        // Generate token using the actual username (not email)
+        String token = jwtUtil.generateToken(user.getUsername());
+        return new AuthResponse(token, user.getUsername(), user.getEmail());
+    }
+}
