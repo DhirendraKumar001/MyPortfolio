@@ -25,7 +25,7 @@ portfolio/
 └── README.md
 ⚙️ Setup
 Clone Repo
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/DhirendraKumar001/MyPortfolio.git
 cd your-repo
 Run Backend
 cd backend
@@ -41,7 +41,7 @@ Deployment & hosting
 👨‍💻 Author
 
 Dhirendra Kumar
-🔗 GitHub: https://github.com/your-username
+🔗 GitHub: https://github.com/DhirendraKumar001
 
 ⭐ Support
 
