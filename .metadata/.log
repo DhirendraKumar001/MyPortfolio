@@ -2294,3 +2294,9 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.debug.core.ILaunchCon
 
 !ENTRY org.eclipse.lsp4e 1 0 2026-04-23 19:06:24.751
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 19:30:00.959
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/applicatio.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 19:30:18.767
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application.properties
