@@ -42,9 +42,3 @@ Deployment & hosting
 
 Dhirendra Kumar
 🔗 GitHub: https://github.com/DhirendraKumar001
-
-⭐ Support
-
-If you like this project, give it a ⭐
-
-💡 Tip
