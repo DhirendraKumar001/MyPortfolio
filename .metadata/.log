@@ -2219,3 +2219,21 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.debug.core.ILaunchCon
 
 !ENTRY org.eclipse.lsp4e 1 0 2026-04-23 17:39:37.210
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:28:26.103
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:28:27.350
+!MESSAGE [Info]	[fetchCompletions] Request 01ea9acc-b250-494d-b573-916a6cf7d2ab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 852.224600000307ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:28:27.392
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:28:27.806
+!MESSAGE [Info]	[fetchCompletions] Request b2171862-d654-4b3e-bc75-e6b50bb3c1e4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 385.26100000040606ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 18:28:27.833
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 18:28:59.370
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application-example.properties
