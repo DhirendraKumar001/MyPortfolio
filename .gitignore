@@ -1,0 +1,17 @@
+HELP.md
+target/
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Backend
+backend/target/
+*.class
+*.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+.env
