@@ -1,7 +1,6 @@
-
 package com.portfolio.repository;
 
 import com.portfolio.entity.Project;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ProjectRepository extends MongoRepository<Project, String> {}
+public interface ProjectRepository extends JpaRepository<Project, Long> {}

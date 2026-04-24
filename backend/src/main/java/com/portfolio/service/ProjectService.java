@@ -21,8 +21,9 @@ public class ProjectService {
         return projectRepository.save(project);
     }
 
-    public void deleteProject(String id) {  // ← changed Long to String
+    public void deleteProject(Long id) {
         projectRepository.deleteById(id);
     }
+
 }
 
