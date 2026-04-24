@@ -2938,3 +2938,371 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.lsp4e 1 0 2026-04-24 12:40:29.053
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 13:10:56.365
+!MESSAGE [Info] Document is null for editor: Dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 13:10:56.366
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/Dockerfile
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 13:10:56.433
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 13:10:56.435
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hp/Desktop/Portfolio/backend/src/main/resources/application.properties
+!SESSION 2026-04-24 16:01:22.475 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-24 16:02:47.105
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-24 16:02:55.084
+!MESSAGE Logback config file: C:\Users\hp\Desktop\Portfolio\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-24 16:02:56.366
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-24 16:02:56.366
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-24 16:02:57.385
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-24 16:02:57.386
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-04-24 16:03:10.978
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\hp\Desktop\Spring-Tool\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/hp/Desktop/Portfolio/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1777026790974
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\hp\Desktop\Spring-Tool\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:03:10.979
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-04-24 16:03:11.062
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 20620
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:03:13.728
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-24 16:03:13.785
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:03:13.795
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:03:13.939
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:03:15.157
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:03:15.158
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:03:15.160
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:27.068
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.412.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-24 16:03:27.605
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:27.608
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:27.690
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:28.457
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:29.187
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:29.188
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:29.189
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-24 16:03:29.535
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:03:53.662
+!MESSAGE [Info] Language ID not found for extension: properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:03:54.178
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:04:20.173
+!MESSAGE [Info]	[fetchCompletions] Request e573fb0b-1ca4-4089-b470-3b55ea046afc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 909.7274999999936ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:04:20.174
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:04:33.952
+!MESSAGE [Info]	[fetchCompletions] Request 969cdf05-08cd-4660-abe7-a57121838446 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 302.7920000000013ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:04:33.953
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jface 2 0 2026-04-24 16:04:37.690
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-24 16:04:37.690
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:13:27.333
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:13:27.335
+!MESSAGE [Info]	[fetchCompletions] Request 52e16201-7295-4eb0-bb65-30ee8bc96288 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 793.3724999999395ms
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-24 16:14:05.438
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:14:50.352
+!MESSAGE [Info] Language ID not found for extension: xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:50.862
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:51.177
+!MESSAGE [Info]	[fetchCompletions] Request 53da774b-be3b-47a5-ad7a-2fe48280a123 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.70530000003055ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:51.377
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:51.810
+!MESSAGE [Info]	[fetchCompletions] Request b4ae9ed6-201b-46f4-a5ee-e18eef75a668 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 300.3155999999726ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:51.959
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:54.426
+!MESSAGE [Info]	[fetchCompletions] Request 4f5ae84d-f045-4ee1-9b52-2d644ce4dc3b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.97159999993164ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:54.456
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:55.624
+!MESSAGE [Info]	[fetchCompletions] Request 9485bd83-cd4e-4daf-a631-7e429748d99d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 355.9196000000229ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:55.770
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:56.170
+!MESSAGE [Info]	[fetchCompletions] Request c1eacde2-805a-402d-a47a-323ae1c83c0a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 320.4865999999456ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:14:56.172
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:24.586
+!MESSAGE [Info]	[fetchCompletions] Request 2a806011-eda5-4990-8dcb-eeef0cdcc4ca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 332.8793000000296ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:24.711
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:29.382
+!MESSAGE [Info]	[fetchCompletions] Request bd381273-2de0-442e-a291-e4daab9623ec at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 303.7314999999944ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:29.400
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:15:38.140
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-24 16:15:43.463
+!MESSAGE Classpath changed for project: backend
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:52.280
+!MESSAGE [Info]	[fetchCompletions] Request 655e284a-4931-4171-9eca-01e886f8a1f6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.5892000000458ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:15:52.282
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:02.318
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:02.673
+!MESSAGE [Info]	[fetchCompletions] Request 7fa6c55e-dfb4-47f7-b444-bdbbd67b1c2f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 350.54899999999907ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:02.674
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:06.162
+!MESSAGE [Info]	[fetchCompletions] Request 793586f7-b5fa-4801-943e-63215c87eedc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 297.1628000000492ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:06.164
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:12.707
+!MESSAGE [Info]	[fetchCompletions] Request 510884d9-beed-4945-b0f7-8ace639f8a4f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 310.05570000002626ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:12.707
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:32.158
+!MESSAGE [Info]	[fetchCompletions] Request 91448db7-5b92-4d47-a817-32a8d9797e64 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 424.9943000000203ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:32.158
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:41.046
+!MESSAGE [Info]	[fetchCompletions] Request cb92b249-56d0-491e-93b0-805c1c119d4a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.00719999999274ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:41.047
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:53.759
+!MESSAGE [Info]	[fetchCompletions] Request 7c071519-4aa7-4dd3-89d7-c1d2d7c1bb97 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 321.6938000000082ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:17:53.838
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:18:54.567
+!MESSAGE [Info]	[fetchCompletions] Request 1d60ac1c-8802-421e-8b3b-3e773e794c22 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.2589000000153ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:18:54.570
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:19:25.989
+!MESSAGE [Info]	[fetchCompletions] Request 8a9f74ce-41dc-42b8-9fdd-a46b3031a489 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 322.3664000000572ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:19:26.063
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:20:49.319
+!MESSAGE [Info]	[fetchCompletions] Request be08d775-a86e-4352-8902-c9b45e99f42f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 759.5049999998882ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:20:49.327
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:20:59.868
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:21:08.226
+!MESSAGE [Info]	[fetchCompletions] Request 0d626f4e-70ab-43cf-9781-47b7da494579 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> rejected with FetchError: Stream closed with error code NGHTTP2_REFUSED_STREAM after 13303.594599999953ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-24 16:21:08.228
+!MESSAGE [Error]	[ghostText] Error on ghost text request: FetchError: Stream closed with error code NGHTTP2_REFUSED_STREAM
+    at fetch (C:\snapshot\copilot-intellij\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (C:\snapshot\copilot-intellij\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at Doe.fetch (C:\snapshot\copilot-intellij\lib\src\network\helix.ts:160:22)
+    at tfe.fetchWithParameters (C:\snapshot\copilot-intellij\lib\src\openai\fetch.ts:762:26)
+    at tfe.fetchAndStreamCompletions (C:\snapshot\copilot-intellij\lib\src\openai\fetch.ts:589:26)
+    at genericGetCompletionsFromNetwork (C:\snapshot\copilot-intellij\lib\src\ghostText\ghostText.ts:171:21) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_ERROR',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-04-24 16:21:43.865
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: backend
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ProjectRepository [in [Working copy] UserRepository.java [in com.portfolio.repository [in src/main/java [in backend]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:383)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:474)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:225)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:496)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:387)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:207)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:164)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:332)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-04-24 16:21:43.866
+!MESSAGE ProjectRepository [in [Working copy] UserRepository.java [in com.portfolio.repository [in src/main/java [in backend]]]] does not exist
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:21:44.454
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:21:49.457
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-24 16:21:54.461
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:21:54.504
+!MESSAGE [Info]	[fetchCompletions] Request 90a49c01-6ca1-43bb-8ffa-8f6c772410b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 5021.7940999998245ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:21:54.506
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:22:31.820
+!MESSAGE [Info]	[fetchCompletions] Request 70d7bbed-0ef3-4d57-afa4-3f10b94ed8b5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 340.15580000006594ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:22:31.926
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:24:23.433
+!MESSAGE [Info]	[fetchCompletions] Request 7a07aed0-b163-40f2-a355-c77f83b4d062 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 353.83580000000075ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-24 16:24:23.534
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]

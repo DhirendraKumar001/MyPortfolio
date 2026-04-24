@@ -1,10 +1,10 @@
 package com.portfolio.entity;
 
-import jakarta.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.*;
 
-@Entity
-@Table(name = "projects")
+@Document(collection = "projects")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -12,8 +12,7 @@ import lombok.*;
 public class Project {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     private String title;
     private String description;
