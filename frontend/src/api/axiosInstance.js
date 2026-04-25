@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });  // use proxy, not hardcoded
+const api = axios.create({ baseURL: 'https://myportfolio-m6ir.onrender.com/api' });  // use proxy, not hardcoded
 
 api.interceptors.request.use(config => {
   const token = localStorage.getItem('token');
