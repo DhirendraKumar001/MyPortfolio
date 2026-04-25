@@ -3,6 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import api from '../api/axiosInstance';
 import { useAuth } from '../context/AuthContext';
 
+const ADMIN_USERNAME = 'DhirendraKumar001';
+const ADMIN_EMAIL = 'dhiraendra542005@gmail.com';
+
 export default function Login() {
   const [form, setForm] = useState({ username: '', password: '' });
   const [error, setError] = useState('');
@@ -14,11 +17,22 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); setError('');
+    setLoading(true);
+    setError('');
     try {
       const res = await api.post('/auth/login', form);
       login(res.data);
-      navigate('/');
+
+      // ← Auto redirect to admin if you are the admin
+      if (
+        res.data.username === ADMIN_USERNAME ||
+        res.data.email === ADMIN_EMAIL
+      ) {
+        navigate('/admin');
+      } else {
+        navigate('/');
+      }
+
     } catch (err) {
       setError(err.response?.data?.message || 'Invalid credentials');
     } finally {
@@ -58,7 +72,7 @@ export default function Login() {
           {['username', 'password'].map(field => (
             <div key={field}>
               <label style={{ color: '#94a3b8', fontSize: '0.85rem', display: 'block', marginBottom: '0.4rem' }}>
-                {field.charAt(0).toUpperCase() + field.slice(1)}
+                {field === 'username' ? 'Username or Email' : 'Password'}
               </label>
               <input
                 name={field}
@@ -70,7 +84,8 @@ export default function Login() {
                   width: '100%', background: '#0a0a0f',
                   border: '1px solid rgba(255,255,255,0.1)',
                   borderRadius: 8, padding: '0.65rem 1rem',
-                  color: '#e2e8f0', fontSize: '0.95rem', outline: 'none', boxSizing: 'border-box'
+                  color: '#e2e8f0', fontSize: '0.95rem',
+                  outline: 'none', boxSizing: 'border-box'
                 }}
               />
             </div>
@@ -89,5 +104,3 @@ export default function Login() {
     </div>
   );
 }
-
-

@@ -15,7 +15,9 @@ export default function Navbar() {
     { to: '/', label: 'Home' },
     { to: '/projects', label: 'Projects' },
     { to: '/resume', label: 'Resume' },
-    { to: '/contact', label: 'Contact' }
+    { to: '/contact', label: 'Contact' },
+    { to: '/Admin', label: 'Admin' }
+
 
   ];
 

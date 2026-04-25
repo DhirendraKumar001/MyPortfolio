@@ -25,6 +25,14 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/admin"
+              element={
+                <ProtectedRoute>
+                  <Admin />
+                </ProtectedRoute>
+              }
+            />
             <Route path="/admin" element={<AdminRoute><Admin /></AdminRoute>} />
           </Routes>
         </div>
