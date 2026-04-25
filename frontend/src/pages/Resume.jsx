@@ -31,7 +31,7 @@ export default function Resume() {
         borderRadius: 16, overflow: 'hidden', height: '85vh'
       }}>
         <iframe
-          src="/resume.pdf"
+          src="/"
           width="100%"
           height="100%"
           style={{ border: 'none' }}
