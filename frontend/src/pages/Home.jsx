@@ -10,7 +10,7 @@ export default function Home() {
   const education = [
     { year: '2022–2026', degree: 'B.Tech in Computer Science', college: 'Maharishi Markandeshwar Deemed to be University, Mullana, Ambala, Haryana', grade: '6.8 CGPA' },
     { year: '2020–2022', degree: 'Intermediate (PCM)', college: 'Asarfi Kuar Ramratan Ray College, Kotwa, East-Champaran, Bihar, 845437', grade: '75.8%' },
-    { year: '2018–2020', degree: 'Matriculation (10th)', college: ' High School Tenua, East-Champaran, Bihar, 845437', grade: '77.8%' },
+    { year: '2018–2020', degree: 'Matriculation (10th)', college: 'High School Tenua, East-Champaran, Bihar, 845437', grade: '77.8%' },
   ];
 
   return (

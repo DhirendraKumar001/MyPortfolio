@@ -599,3 +599,65 @@
 2026-04-24 23:38:53,946 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2026-04-24 23:38:53,959 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-04-24 23:38:53,965 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 15:21:59,137 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-04-25 15:22:21,214 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 15:22:21,243 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 15:22:21,250 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:02:08,500 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:02:08,556 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:02:08,559 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:03:10,455 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.portfolio:portfolio-backend:0.0.1-SNAPSHOT @ C:\Users\hp\Desktop\Portfolio\backend\pom.xml.
+2026-04-25 18:03:12,768 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:03:12,773 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:03:12,785 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:03:21,200 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.portfolio:portfolio-backend:0.0.1-SNAPSHOT @ C:\Users\hp\Desktop\Portfolio\backend\pom.xml.
+2026-04-25 18:03:22,240 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0.pom
+2026-04-25 18:03:22,362 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0.pom
+2026-04-25 18:03:22,404 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0.pom
+2026-04-25 18:03:22,441 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0.pom
+2026-04-25 18:03:23,266 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0.jar
+2026-04-25 18:03:23,629 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0.jar
+2026-04-25 18:03:23,655 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0.jar
+2026-04-25 18:03:23,803 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0.jar
+2026-04-25 18:03:25,163 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:03:25,165 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:03:25,171 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:03:26,089 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0-sources.jar
+2026-04-25 18:03:26,486 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-http44/1.34.0/cloudinary-http44-1.34.0-sources.jar
+2026-04-25 18:03:26,498 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.cloudinary:cloudinary-http44:1.34.0
+2026-04-25 18:03:27,069 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0-sources.jar
+2026-04-25 18:03:27,274 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/cloudinary/cloudinary-core/1.34.0/cloudinary-core-1.34.0-sources.jar
+2026-04-25 18:03:27,283 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.cloudinary:cloudinary-core:1.34.0
+2026-04-25 18:03:27,369 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0-sources.jar
+2026-04-25 18:03:27,592 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0-sources.jar
+2026-04-25 18:03:27,601 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.13.0
+2026-04-25 18:03:27,742 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4/httpclient-4.4-sources.jar
+2026-04-25 18:03:27,853 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:03:27,911 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:03:27,926 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:03:28,003 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.4/httpclient-4.4-sources.jar
+2026-04-25 18:03:28,014 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.4
+2026-04-25 18:03:28,186 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1-sources.jar
+2026-04-25 18:03:28,340 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1-sources.jar
+2026-04-25 18:03:28,349 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.16.1
+2026-04-25 18:03:28,491 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.4/httpmime-4.4-sources.jar
+2026-04-25 18:03:30,051 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.4/httpmime-4.4-sources.jar
+2026-04-25 18:03:30,060 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpmime:4.4
+2026-04-25 18:03:38,569 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:03:38,573 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:03:38,585 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:06:27,967 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-25 18:06:27,970 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:06:27,981 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:07:24,126 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:07:24,144 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:07:24,151 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:07:29,204 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:07:29,218 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:07:29,226 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:08:00,625 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:08:00,640 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:08:00,648 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources
+2026-04-25 18:08:04,232 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:08:04,244 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-25 18:08:04,252 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\hp\Desktop\Portfolio\backend\src\test\resources

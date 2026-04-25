@@ -16,6 +16,8 @@ export default function Navbar() {
     { to: '/projects', label: 'Projects' },
     { to: '/resume', label: 'Resume' },
     { to: '/contact', label: 'Contact' },
+    { to: '/admin', label: 'Admin' },
+
   ];
 
   const isActive = (path) => location.pathname === path;

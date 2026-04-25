@@ -30,11 +30,10 @@ public class SecurityConfig {
             .sessionManagement(sm -> sm
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/auth/register", "/api/auth/login").permitAll()
-                .requestMatchers("/api/projects").permitAll()
-                .requestMatchers("/api/contact").permitAll()
-                .anyRequest().authenticated()
-            )
+            	    .requestMatchers("/api/auth/**", "/api/projects", "/api/contact").permitAll()
+            	    .requestMatchers("/api/images/upload").authenticated()
+            	    .anyRequest().authenticated()
+            	)
             .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
