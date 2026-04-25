@@ -5,6 +5,7 @@ import com.portfolio.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -30,10 +31,14 @@ public class SecurityConfig {
             .sessionManagement(sm -> sm
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-            	    .requestMatchers("/api/auth/**", "/api/projects", "/api/contact").permitAll()
-            	    .requestMatchers("/api/images/upload").authenticated()
-            	    .anyRequest().authenticated()
-            	)
+                .requestMatchers("/api/auth/**").permitAll()
+                .requestMatchers("/api/contact").permitAll()
+                .requestMatchers(HttpMethod.GET, "/api/projects").permitAll()
+                .requestMatchers(HttpMethod.POST, "/api/projects").authenticated()
+                .requestMatchers(HttpMethod.DELETE, "/api/projects/**").authenticated()
+                .requestMatchers(HttpMethod.POST, "/api/images/**").authenticated()
+                .anyRequest().authenticated()
+            )
             .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();

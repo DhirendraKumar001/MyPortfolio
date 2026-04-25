@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Admin from './pages/Admin';
+import AdminRoute from './components/AdminRoute';
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
+            <Route path="/admin" element={<AdminRoute><Admin /></AdminRoute>} />
           </Routes>
         </div>
       </HashRouter>

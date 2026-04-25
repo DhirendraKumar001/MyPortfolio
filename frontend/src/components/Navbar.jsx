@@ -15,10 +15,22 @@ export default function Navbar() {
     { to: '/', label: 'Home' },
     { to: '/projects', label: 'Projects' },
     { to: '/resume', label: 'Resume' },
-    { to: '/contact', label: 'Contact' },
-    { to: '/admin', label: 'Admin' },
+    { to: '/contact', label: 'Contact' }
 
   ];
+
+  const ADMIN_USERNAME = 'DhirendraKumar001';
+
+{user && user.username === ADMIN_USERNAME && (
+  <Link to="/admin" style={{
+    color: '#818cf8',
+    fontWeight: 600,
+    textDecoration: 'none',
+    fontSize: '0.95rem'
+  }}>
+    Admin
+  </Link>
+)}
 
   const isActive = (path) => location.pathname === path;
 
