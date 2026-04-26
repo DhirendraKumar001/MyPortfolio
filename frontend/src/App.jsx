@@ -1,7 +1,9 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import ProtectedRoute from './components/ProtectedRoute';
+import AdminRoute from './components/AdminRoute';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
@@ -9,34 +11,39 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Admin from './pages/Admin';
-import AdminRoute from './components/AdminRoute';
 
 export default function App() {
   return (
     <AuthProvider>
-      <HashRouter> {/* ✅ changed */}
-        <div style={{ minHeight: '100vh', background: '#0a0a0f' }}>
+      <BrowserRouter>
+        <div style={{
+          minHeight: '100vh',
+          background: '#0a0a0f',
+          display: 'flex',
+          flexDirection: 'column'
+        }}>
           <Navbar />
-          <Routes>
-            {/* Public routes */}
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route
-              path="/admin"
-              element={
-                <ProtectedRoute>
+
+          {/* Main content grows to push footer down */}
+          <main style={{ flex: 1 }}>
+            <Routes>
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/admin" element={
+                <AdminRoute>
                   <Admin />
-                </ProtectedRoute>
-              }
-            />
-            <Route path="/admin" element={<AdminRoute><Admin /></AdminRoute>} />
-          </Routes>
+                </AdminRoute>
+              } />
+            </Routes>
+          </main>
+
+          <Footer />
         </div>
-      </HashRouter>
+      </BrowserRouter>
     </AuthProvider>
   );
 }
