@@ -29,6 +29,26 @@
     font-size: 16px;
   }
 }
+/* Desktop nav visible, hamburger hidden */
+.desktop-nav {
+  display: flex !important;
+}
+.hamburger {
+  display: none !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .hamburger {
+    display: flex !important;
+  }
+  .mobile-menu {
+    display: flex !important;
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
